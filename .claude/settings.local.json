@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/dilnoza/Desktop/NeuroProject/components/brand)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/about --max-time 5)",
+      "Bash(curl -s http://localhost:3000/about)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p '[locale]')",
+      "Bash(mv about *)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('messages/en.json'\\)\\); console.log\\('en.json OK'\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('messages/uz.json'\\)\\); console.log\\('uz.json OK'\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -D - http://localhost:3000/ -o /dev/null)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-server\")",
+      "Bash(curl -s http://localhost:3000/uz)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/uz)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/dashboard)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" --cookie \"synapse_session_id=test-123\" http://localhost:3000/dashboard)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" --cookie \"synapse_session_id=test-123\" http://localhost:3000/uz/dashboard)",
+      "Bash(curl -s -X POST http://localhost:3000/api/tests/simple-reaction-time/submit -H 'Content-Type: application/json' --cookie synapse_session_id=test-123 -d '{\"rawMetrics\":{\"trialMs\":[300]},\"domainScores\":{\"reaction_time\":65}}' -w '\\\\nHTTP %{http_code}\\\\n')",
+      "Bash(npx --yes netlify-cli --version)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json;print\\(json.dumps\\(json.load\\(open\\('messages/en.json'\\)\\)['nav'],indent=1\\)\\)\")",
+      "Bash(python3 -c \"import json;print\\(list\\(json.load\\(open\\('messages/en.json'\\)\\)['home'].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -)",
+      "Bash(python3 -c \"import json;[json.load\\(open\\(f'messages/{l}.json'\\)\\) for l in \\('en','uz'\\)];print\\('JSON valid: OK'\\)\")",
+      "Bash(npx netlify-cli *)",
+      "Bash(curl -s -o /dev/null -w \"miyauz.netlify.app -> %{http_code} \\(redirect to: %{redirect_url}\\)\\\\n\" -L --max-redirs 0 https://miyauz.netlify.app)",
+      "Bash(curl -s -o /dev/null -w \"synapseuz.netlify.app -> %{http_code}\\\\n\" https://synapseuz.netlify.app)",
+      "Bash(python3 -c \"import json;json.load\\(open\\('messages/uz.json'\\)\\);print\\('JSON valid: OK'\\)\")",
+      "Bash(python3 -c \"import json; print\\(json.dumps\\(json.load\\(open\\('messages/en.json'\\)\\)['domains'], indent=1\\)\\)\")",
+      "Bash(curl -s -o /dev/null -w \"EN %{http_code}\\\\n\" http://localhost:3000/en)",
+      "Bash(python3 \"/private/tmp/claude-502/-Users-dilnoza-Desktop-NeuroProject/4e6992c2-14a5-4db3-93d8-0f7723ec1d24/scratchpad/home_content.py\")",
+      "Bash(curl -sL -o /tmp/h.html http://localhost:3000/)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

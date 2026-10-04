@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "siteName": "Synapse",
+    "homeTitle": "Synapse — Discover How Your Brain Works",
+    "homeDescription": "Explore your attention, memory, reaction speed, and executive function through interactive cognitive tasks while contributing anonymously to neuroscience research."
+  },
+  "nav": {
+    "tests": "Tests",
+    "lessons": "Lessons",
+    "articles": "Articles",
+    "about": "About",
+    "faq": "FAQ",
+    "dashboard": "Dashboard",
+    "startAssessment": "Start Assessment",
+    "openMenu": "Open menu",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "myResults": "My results"
+  },
+  "footer": {
+    "tagline": "Understanding the brain, together.",
+    "platform": "Platform",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© {year} Synapse. Educational and research use only.",
+    "disclaimer": "Not a diagnostic tool. Always consult a qualified professional for medical concerns."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Neuroscience, in human terms",
+      "title": "Discover how your brain works",
+      "subtitle": "Synapse brings neuroscience closer to everyday human experience — connecting research, questions, and the ways we think, learn, feel, and remember.",
+      "ctaPrimary": "Explore the Brain",
+      "ctaSecondary": "Discover Synapse",
+      "note": "Educational and research use only. Never a diagnosis.",
+      "terms": {
+        "memory": "Memory",
+        "attention": "Attention",
+        "sleep": "Sleep",
+        "learning": "Learning",
+        "emotion": "Emotion"
+      },
+      "credit": "Synaptic field — Synapse",
+      "indexLabel": "In this section"
+    },
+    "explore": {
+      "eyebrow": "Explore the brain",
+      "heading": "Five ways of being a mind",
+      "intro": "Each of these is a whole field of research — and a part of your ordinary day. Start wherever you are curious.",
+      "readMore": "Read the article",
+      "topics": {
+        "memory": {
+          "title": "Memory",
+          "tagline": "How experiences become memories.",
+          "body": "Most of what you call forgetting never got recorded in the first place. Memory is built, not stored — reconstructed slightly differently every time you reach for it.",
+          "figure": "~4",
+          "figureLabel": "items held in working memory at once"
+        },
+        "attention": {
+          "title": "Attention",
+          "tagline": "Why the brain chooses what to notice.",
+          "body": "You cannot process everything, so something must decide what reaches you. That filter is fast, automatic, and easy to interfere with — which is why reading a word can override your intention to ignore it.",
+          "figure": "1",
+          "figureLabel": "demanding task at a time — the rest is switching"
+        },
+        "sleep": {
+          "title": "Sleep",
+          "tagline": "What happens while consciousness rests.",
+          "body": "The night after learning is part of the learning. While you are unconscious, the day is replayed, sorted, and stabilised — and the first thing to break when sleep is short is your attention.",
+          "figure": "7–9h",
+          "figureLabel": "typical adult range, though individuals vary"
+        },
+        "learning": {
+          "title": "Learning",
+          "tagline": "How the brain changes through experience.",
+          "body": "The methods that feel most productive are often the least effective. Recognising a page is easy; producing it from memory is the thing an exam actually asks for.",
+          "figure": "2×",
+          "figureLabel": "retention advantage commonly found for spaced over massed study"
+        },
+        "emotion": {
+          "title": "Emotion",
+          "tagline": "How the brain constructs our emotional world.",
+          "body": "Feeling is not something that happens to you separately from thinking. Emotion shapes what you attend to, what you remember, and how confidently you decide.",
+          "figure": "—",
+          "figureLabel": "no clean line between feeling and reasoning"
+        }
+      }
+    },
+    "trace": {
+      "eyebrow": "Contribution",
+      "heading": "Every mind leaves a trace.",
+      "intro": "One person's results say very little. Thousands of them, gathered carefully and anonymously, begin to describe how sleep, stress and daily habits relate to cognition — here, in Uzbekistan, where almost none of this has been measured before.",
+      "figureCaption": "Illustrative distribution across cognitive domains. Real figures appear here as participation grows.",
+      "source": "Figure — Synapse, ongoing",
+      "domains": {
+        "memory": "Memory",
+        "sleep": "Sleep",
+        "focus": "Focus",
+        "learning": "Learning",
+        "emotion": "Emotion"
+      },
+      "annotation1": "Each mark is one anonymous session",
+      "annotation2": "Spread matters more than any single point",
+      "stats": {
+        "domainsLabel": "Cognitive domains measured",
+        "anonLabel": "Anonymous by default",
+        "diagnosesLabel": "Diagnoses ever made",
+        "openLabel": "Methodology, documented",
+        "anonValue": "100%",
+        "openValue": "Open"
+      }
+    },
+    "stories": {
+      "eyebrow": "Human stories",
+      "heading": "Science starts with a question.",
+      "intro": "These are the kinds of questions people actually ask about their own minds. Each one has real research behind it.",
+      "prompt": "Read the article",
+      "items": [
+        {
+          "question": "Why do I remember embarrassing moments from ten years ago but forget what I studied yesterday?",
+          "domain": "Memory",
+          "answer": "Emotionally charged events are encoded more deeply and rehearsed more often — you replay the embarrassing moment, which strengthens it each time. Yesterday's notes were probably read once, passively, while your attention was divided.",
+          "article": "forgetting-names"
+        },
+        {
+          "question": "Why does music sometimes bring back memories instantly?",
+          "domain": "Memory",
+          "answer": "Memories are easier to retrieve when the cue overlaps with the context in which they formed. Music carries a dense set of cues — time, place, mood — so a few seconds of a song can reinstate the whole context at once.",
+          "article": "forgetting-names"
+        },
+        {
+          "question": "Why can I focus for hours on something I love but struggle with simple tasks?",
+          "domain": "Attention",
+          "answer": "Sustained attention is not one fixed resource you either have or lack. It depends heavily on interest, perceived reward, and how clearly defined the next step is — which is why a vague task can feel far harder than a difficult one.",
+          "article": "automatic-reading"
+        },
+        {
+          "question": "Why do I feel sharper at night when everyone tells me to sleep early?",
+          "domain": "Sleep",
+          "answer": "People genuinely differ in circadian timing, and it shifts with age. But feeling sharp and being sharp come apart when sleep is short — self-assessment of alertness is one of the first things to become unreliable.",
+          "article": "sleep-and-memory"
+        }
+      ]
+    },
+    "articlesPreview": {
+      "eyebrow": "Articles",
+      "heading": "Reading on the mind",
+      "intro": "Longer pieces on memory, sleep, attention and the research behind them — written to be understood, not to impress.",
+      "cta": "All articles"
+    },
+    "contribute": {
+      "eyebrow": "Participate",
+      "heading": "Your experience is data, too.",
+      "body": "If you choose to, the results of the tasks you complete can join an anonymised body of data on how people here think, sleep, focus and remember. Nothing identifying is collected, participation is entirely voluntary, and you can use everything on Synapse without contributing at all.",
+      "cta": "Share your experience",
+      "secondary": "Read how we handle data",
+      "assurances": [
+        "No name, no email, no location — a random session identifier only",
+        "Every optional question can be skipped without affecting your results",
+        "Aggregated for research; never used to draw conclusions about you"
+      ]
+    }
+  },
+  "domains": {
+    "reaction_time": "Reaction Time",
+    "working_memory": "Working Memory",
+    "attention": "Attention",
+    "executive_function": "Executive Function",
+    "visual_memory": "Visual Memory",
+    "processing_speed": "Processing Speed",
+    "impulse_control": "Impulse Control"
+  },
+  "tests": {
+    "catalog": {
+      "eyebrow": "Brain Tests",
+      "title": "Choose a cognitive task",
+      "description": "Each test takes a few minutes, starts with a short practice round, and ends with a plain-language breakdown of your performance.",
+      "minutes": "~{count} min",
+      "practiceIncluded": "Practice round included"
+    },
+    "items": {
+      "simple-reaction-time": {
+        "name": "Simple Reaction Time",
+        "description": "Tap as soon as a shape appears on screen.",
+        "scientificExplanation": "Simple reaction time reflects the speed of the basic sensorimotor pathway from visual detection to motor response, and is widely used as a baseline measure of processing speed in cognitive psychology."
+      },
+      "stroop-test": {
+        "name": "Stroop Test",
+        "description": "Name the ink color of a word, ignoring what the word says.",
+        "scientificExplanation": "The Stroop effect demonstrates interference between automatic word-reading and deliberate color-naming, and is a classic measure of selective attention and executive inhibitory control."
+      },
+      "n-back": {
+        "name": "N-back",
+        "description": "Decide whether the current item matches the one shown N steps earlier.",
+        "scientificExplanation": "The N-back task requires continuously updating and monitoring items held in working memory, making it a standard laboratory measure of working memory capacity and executive updating."
+      },
+      "digit-span": {
+        "name": "Digit Span",
+        "description": "Recall an increasingly long sequence of digits in order.",
+        "scientificExplanation": "Digit span is a classic measure of short-term memory span; performance reflects how much verbal information can be held and immediately reproduced."
+      }
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
+  "lessons": {
+    "empty": {
+      "eyebrow": "Lessons",
+      "title": "Learning is coming.",
+      "intro": "Synapse video lessons are on the way — short, careful walkthroughs of how memory, attention, sleep and learning actually work, made to watch in a few minutes.",
+      "note": "Nothing here yet, and nothing invented to fill the space.",
+      "cta": "Read the articles meanwhile",
+      "annotation": "In preparation"
+    },
+    "catalog": {
+      "eyebrow": "Lessons",
+      "title": "Lessons",
+      "intro": "Short, careful walkthroughs of how memory, attention, sleep and learning work.",
+      "videoLesson": "Video lesson",
+      "lesson": "Lesson"
+    }
+  },
+  "testShell": {
+    "duration": "Takes about {count, plural, one {# minute} other {# minutes}}, including a practice round.",
+    "practiceNote": "You'll do a short practice round first so you know what to expect before the real test starts.",
+    "startPractice": "Start practice round",
+    "practiceRound": "Practice round",
+    "readyTitle": "Nice — you're ready",
+    "readyDescription": "That was just practice. The real test starts on the next screen and your result will be scored.",
+    "startReal": "Start the real test",
+    "go": "Go!",
+    "analyzing": "Analyzing your results...",
+    "saveError": "Couldn't save this result, but here's your local score."
+  },
+  "testEngines": {
+    "simpleReactionTime": {
+      "trial": "Trial {current} of {total}",
+      "waiting": "Wait for the color...",
+      "stimulus": "Tap now!",
+      "tooSoon": "Too soon — try again"
+    },
+    "stroop": {
+      "trial": "Trial {current} of {total} — tap the button matching the",
+      "inkColor": "ink color",
+      "notWord": ", not the word",
+      "colors": {
+        "red": "Red",
+        "blue": "Blue",
+        "green": "Green",
+        "yellow": "Yellow"
+      }
+    },
+    "nBack": {
+      "instructions": "Letter {current} of {total} — press Match if this letter is the same as the one shown {n} steps ago",
+      "match": "Match",
+      "recorded": "Recorded"
+    },
+    "digitSpan": {
+      "memorize": "Memorize the sequence — {count} digits",
+      "enter": "Enter the digits in the same order",
+      "backspace": "Backspace",
+      "submit": "Submit"
+    }
+  },
+  "resultsSummary": {
+    "eyebrow": "Results",
+    "complete": "{name} complete",
+    "whatThisMeasures": "What this measures",
+    "scoreNote": "This score reflects your performance on this specific task, not a diagnosis or a fixed trait — it can vary with sleep, practice, and attention on any given day.",
+    "tryAgain": "Try again",
+    "viewDashboard": "View full dashboard"
+  },
+  "share": {
+    "buttonLabel": "Share your score",
+    "linkCopied": "Link copied to clipboard!",
+    "copyFailed": "Couldn't copy the link — please try again.",
+    "shareText": "I scored {score} on {testName} on Synapse — try to beat me!",
+    "pageEyebrow": "Shared result",
+    "pageTitle": "{testName} score",
+    "whatThisMeasures": "What this measures",
+    "ctaTryTest": "Try this test yourself",
+    "ctaExploreAll": "Explore all tests",
+    "disclaimer": "Shared anonymously — this link shows only this test result, no personal information.",
+    "notFoundTitle": "This result couldn't be found",
+    "ogFooter": "Take the test at synapseuz.netlify.app"
+  },
+  "dashboard": {
+    "eyebrow": "Dashboard",
+    "title": "Your cognitive profile",
+    "description": "A running picture of your performance across every domain you've tested — not a diagnosis, just your data.",
+    "emptyTitle": "No results yet",
+    "emptyDescription": "Complete your first cognitive test to start building your dashboard.",
+    "takeTest": "Take a test",
+    "domainOverview": "Domain overview",
+    "domainOverviewDescription": "Your most recent score in each domain you've tested.",
+    "progressOverTime": "Progress over time",
+    "progressOverTimeDescription": "Each completed test, plotted by the date you took it.",
+    "strength": "Strength",
+    "growthArea": "Growth area"
+  },
+  "aiReport": {
+    "title": "AI Insights Report",
+    "idleDescription": "Get a personalized, plain-language summary of your results, plus evidence-based study and brain-health suggestions.",
+    "generate": "Generate my report",
+    "analyzing": "Analyzing your results...",
+    "tryAgain": "Try again",
+    "regenerate": "Regenerate",
+    "strengths": "Strengths",
+    "weaknesses": "Areas that varied",
+    "studyRecommendations": "Study recommendations",
+    "healthRecommendations": "Brain-health recommendations",
+    "genericError": "Something went wrong"
+  },
+  "assistant": {
+    "title": "Neuroscience Assistant",
+    "intro": "Ask me anything about neuroscience, cognitive psychology, or how these tests work. I can't diagnose anything — just explain the science.",
+    "placeholder": "Ask a question...",
+    "closeChat": "Close chat",
+    "openAssistant": "Open assistant",
+    "closeAssistant": "Close assistant",
+    "genericError": "Sorry, something went wrong. Please try again.",
+    "starterPrompts": [
+      "What is executive function?",
+      "Why was my reaction time slow?",
+      "What does the Stroop Test measure?"
+    ]
+  },
+  "auth": {
+    "dialogTitle": "Save your progress",
+    "dialogDescription": "Create an optional account to see your quiz results across devices.",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "ageRange": "Age range (optional)",
+    "ageRangeNone": "Prefer not to say",
+    "ageRanges": {
+      "under_18": "Under 18",
+      "18_24": "18–24",
+      "25_34": "25–34",
+      "35_44": "35–44",
+      "45_plus": "45+"
+    },
+    "pleaseWait": "Please wait...",
+    "notConfigured": "Accounts aren't set up yet — please try again later.",
+    "confirmEmail": "Check your email to confirm your account, then sign in.",
+    "invalidCredentials": "Wrong email or password.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "results": {
+    "eyebrow": "Account",
+    "title": "My results",
+    "description": "Quiz attempts saved to your account.",
+    "signInPrompt": "Sign in to see your quiz results.",
+    "emptyTitle": "No results yet",
+    "emptyDescription": "When you finish an article quiz while signed in, it will show up here.",
+    "score": "Score",
+    "date": "Date",
+    "quiz": "Quiz",
+    "loadError": "Could not load your results. Please try again."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "An interdisciplinary approach to everyday neuroscience",
+    "description": "Synapse is built at the intersection of cognitive psychology, neuroscience, and interface design — with the goal of making rigorous cognitive tasks approachable without diluting the science behind them.",
+    "whyHeading": "Why this exists",
+    "whyParagraph1": "Cognitive science produces a steady stream of well-validated tasks — the Stroop test, N-back, digit span, go/no-go — that mostly stay inside university labs and research papers. Synapse adapts these paradigms into a self-contained web experience so that anyone can see, firsthand, how tasks like these actually feel, and optionally let that interaction contribute anonymized data to open questions about cognition at a population scale.",
+    "whyParagraph2": "The platform is built and maintained by people working across neuroscience, cognitive psychology, interface design, and engineering — with every design decision, from wording to scoring, reviewed against the same question: does this overstate what the data actually shows?",
+    "guidesHeading": "What guides the platform",
+    "principles": [
+      {
+        "title": "Grounded in established science",
+        "description": "Every task is adapted from a well-documented paradigm in cognitive psychology — nothing invented for novelty."
+      },
+      {
+        "title": "Never diagnostic",
+        "description": "We describe patterns in performance, in plain language, and stop there. No result on this site is a medical or psychiatric assessment."
+      },
+      {
+        "title": "Anonymous by default",
+        "description": "Participation in research requires no account and no identifying information beyond broad, optional demographic buckets."
+      },
+      {
+        "title": "Transparent methodology",
+        "description": "How each task is scored, and what each domain does and doesn't measure, is documented on every results page."
+      }
+    ]
+  },
+  "research": {
+    "eyebrow": "Research",
+    "title": "What we collect, and why",
+    "description": "Every test you take can anonymously contribute to open questions about how everyday factors relate to cognitive performance.",
+    "questionHeading": "The research question",
+    "questionParagraph": "Most of what's known about how sleep, stress, or daily habits relate to cognition comes from small, tightly controlled lab studies — and very little of it has ever looked specifically at Uzbekistan. Synapse is an attempt to gather the same kind of task-performance data at a larger, more varied scale here — entirely opt-in, entirely anonymous — to see which patterns hold up outside the lab, and which are specific to local habits and conditions.",
+    "topics": {
+      "heading": "What we're trying to learn about Uzbekistan",
+      "description": "There's very little public data on cognitive habits and brain health in Uzbekistan today. With your consent, anonymized results across the platform build toward statistics on questions like these.",
+      "items": [
+        {
+          "title": "Sleep and memory",
+          "description": "How reported sleep duration and consistency relate to working-memory and recall performance."
+        },
+        {
+          "title": "Stress and concentration",
+          "description": "Whether self-reported stress levels track with attention and executive-function scores."
+        },
+        {
+          "title": "Screen time and attention",
+          "description": "How daily screen time relates to sustained attention and reaction speed."
+        },
+        {
+          "title": "Study habits and learning",
+          "description": "Which study patterns show up alongside stronger working-memory and processing-speed results."
+        },
+        {
+          "title": "Differences across age groups",
+          "description": "How cognitive task performance varies across the broad, bucketed age ranges participants share."
+        }
+      ]
+    },
+    "collectedHeading": "What's collected",
+    "dataPoints": [
+      {
+        "label": "Cognitive metrics",
+        "detail": "Reaction time, accuracy, and derived domain scores from each test you complete."
+      },
+      {
+        "label": "Daily context (optional)",
+        "detail": "Self-reported sleep, exercise, screen time, stress, mood, and caffeine intake, tied to that session only."
+      },
+      {
+        "label": "Broad demographics (optional)",
+        "detail": "Bucketed age range, gender, country, education, and languages — never exact age or precise location."
+      },
+      {
+        "label": "A random session id",
+        "detail": "A generated identifier stored in your browser, not linked to your name, email, or IP address."
+      }
+    ],
+    "fullDetail": "Full detail on retention and use is in the",
+    "privacyPolicyLink": "Privacy Policy",
+    "voluntaryHeading": "Participation is always voluntary",
+    "voluntaryParagraph": "You can use every cognitive test without ever filling in the optional demographic or daily-context fields. Declining them doesn't change your results or your access to the dashboard — it only reduces what's contributed to the aggregate research data.",
+    "tryTest": "Try a test"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "description": "Questions about a test, the research, or your data — we read everything that comes through.",
+    "preferEmail": "Prefer email?",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us more...",
+    "submit": "Open in your email app",
+    "note": "This opens your default email application with your message pre-filled — nothing is sent from this page directly."
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "intro": "Last updated: this page describes the current data practices of Synapse, an educational and research platform. It is not a substitute for legal advice.",
+    "collectHeading": "What we collect",
+    "collectItems": [
+      {
+        "bold": "An anonymous session identifier",
+        "text": " — a randomly generated id stored in an httpOnly browser cookie, used only to associate your test results with each other. It contains no personal information and cannot be used on its own to identify you."
+      },
+      {
+        "bold": "Cognitive test data",
+        "text": " — reaction times, accuracy, and the derived domain scores from each test you complete."
+      },
+      {
+        "bold": "Optional context you provide",
+        "text": " — bucketed age range, gender, country, education, and languages; and per-session details like sleep hours, exercise frequency, screen time, stress level, mood, and caffeine intake. All of this is optional and skippable."
+      },
+      {
+        "bold": "Account information",
+        "text": ", only if you choose to create one — an email address and password, handled by our authentication provider (Supabase Auth), used solely to let you access your test history across devices."
+      }
+    ],
+    "dontCollectHeading": "What we don't collect",
+    "dontCollectParagraph": "We do not collect your name, exact date of birth, precise location, or IP-based location, unless you volunteer it in a contact form or account email address. We do not sell data to third parties, and we do not use your data for advertising.",
+    "aiHeading": "How AI features use your data",
+    "aiParagraph": "When you request a personalized insights report or use the neuroscience assistant, your test scores and any optional context you provided are sent to our AI provider (Anthropic) to generate a response. This data is used only to generate that response for you — it is not used by us or the AI provider to identify you, and every AI-generated report explicitly avoids making diagnostic claims.",
+    "anonymizedHeading": "How anonymized data may be used",
+    "anonymizedParagraph": "Aggregated, anonymized data across participants may be analyzed to study relationships between lifestyle factors and cognitive task performance, consistent with the platform's research mission. This analysis is done at the population level and is never used to draw conclusions about a specific individual.",
+    "choicesHeading": "Your choices",
+    "choicesParagraph": "You can use every cognitive test without providing any optional demographic or context information. If you'd like your data deleted, contact us and we will remove records associated with your session id or account.",
+    "sharingHeading": "Sharing your results",
+    "sharingParagraph": "If you choose to share a result, we generate a link containing only that test's name and score — never your name, demographics, or any other result. Anyone with that link can view it; it isn't listed anywhere or searchable. You can stop sharing a link at any time by contacting us to have it removed.",
+    "notMedicalHeading": "Not a medical service",
+    "notMedicalParagraph": "Synapse does not provide medical or psychiatric diagnosis, treatment, or advice of any kind. If you have concerns about your cognitive health, please consult a qualified healthcare professional."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Is this a medical or diagnostic tool?",
+        "answer": "No. Synapse is an educational and research platform. It does not diagnose, screen for, or assess any medical or psychiatric condition. If you have concerns about your cognitive health, please talk to a qualified healthcare professional."
+      },
+      {
+        "question": "Do I need to create an account?",
+        "answer": "No — every test can be taken anonymously with no signup. An optional account only lets you keep your test history and see it across different devices."
+      },
+      {
+        "question": "Is my data really anonymous?",
+        "answer": "Yes, by default. Your results are tied to a random session id stored in your browser, not to your name or email. If you create an account, your email is used only for sign-in — it's never linked to research analysis."
+      },
+      {
+        "question": "How long does a test take?",
+        "answer": "Most tests take one to three minutes, including a short practice round. Each test page shows an estimated duration before you start."
+      },
+      {
+        "question": "What do the scores actually mean?",
+        "answer": "Each score is a normalized measure of performance on that specific task relative to typical ranges — for example, how quickly and accurately you responded. They describe patterns in your performance on that task, not a diagnosis, IQ, or fixed trait."
+      },
+      {
+        "question": "Can I delete my data?",
+        "answer": "Yes. Contact us with your session or account details and we'll remove your associated records. See the Privacy Policy for details."
+      },
+      {
+        "question": "What powers the AI features?",
+        "answer": "The personalized reports and neuroscience assistant are powered by a large language model. They're instructed to stay educational, cite general evidence-based guidance, and never make diagnostic claims — every AI report includes a visible disclaimer."
+      },
+      {
+        "question": "Who is this platform for?",
+        "answer": "Anyone curious about how their attention, memory, or reaction speed works — students, researchers, or people just exploring cognitive science for the first time."
+      }
+    ]
+  },
+  "articles": {
+    "eyebrow": "Articles",
+    "title": "Reading on the mind",
+    "intro": "Longer pieces on how memory, attention, sleep, learning and emotion actually work — written plainly, without overclaiming.",
+    "featuredLabel": "Featured",
+    "readMore": "Read the article",
+    "minRead": "min read",
+    "by": "Synapse Editorial",
+    "published": "Published",
+    "related": "Related reading",
+    "tryTest": "Try the related test",
+    "all": "All articles",
+    "back": "Back to articles",
+    "noneYet": "No published articles yet.",
+    "quiz": {
+      "beforeTitle": "Before you read",
+      "beforeIntro": "Answer a short quiz first. The article unlocks when you finish.",
+      "start": "Start quiz",
+      "questionOf": "Question {current} of {total}",
+      "next": "Next",
+      "submit": "Finish & unlock article",
+      "yourScore": "Score: {score} points",
+      "continue": "Continue to the article",
+      "submitting": "Saving…",
+      "saveError": "Could not save your attempt, but you can still read the article.",
+      "pickAnswer": "Choose an answer to continue."
+    },
+    "categories": {
+      "memory": "Memory",
+      "attention": "Attention",
+      "sleep": "Sleep",
+      "learning": "Learning",
+      "emotion": "Emotion",
+      "research": "Research"
+    },
+    "items": {
+      "forgetting-names": {
+        "title": "Why you forget a name three seconds after hearing it",
+        "excerpt": "It rarely means your memory is failing. Most of the time the name was never recorded in the first place — and the reason is structural, not personal.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Someone introduces themselves. You repeat the name back, you shake hands, and by the time the conversation has moved on it is gone. The usual reaction is mild embarrassment and a private worry about one's memory. Both are misplaced.",
+              "Forgetting comes in two very different forms. Sometimes information is stored and cannot be retrieved. Far more often, it was never adequately stored to begin with. Names are an almost perfect case of the second kind."
+            ]
+          },
+          {
+            "heading": "You were not listening, and that is normal",
+            "paragraphs": [
+              "At the moment of an introduction, attention is heavily occupied. You are managing eye contact, deciding what to say next, reading the other person's manner, and often trying to remember whether you have met before. The name arrives during the busiest few seconds of the encounter.",
+              "Encoding a memory is not passive. It requires attention directed at the thing to be remembered. When attention is divided, encoding degrades sharply — which is why you can hear a name clearly, and still never record it."
+            ]
+          },
+          {
+            "heading": "Names are unusually hard to attach",
+            "paragraphs": [
+              "Even with full attention, names are harder than almost anything else about a person. Memory works by connection: new material sticks when it can be linked to what you already know. A person's job, city, or the fact that they garden all connect to large existing networks of knowledge.",
+              "A name connects to almost nothing. It is an arbitrary label. Knowing that someone is called Baker tells you nothing about them, whereas knowing they are a baker calls up a whole scene — flour, early mornings, an oven. Researchers have long noted this asymmetry, sometimes called the Baker/baker paradox: the identical word is markedly easier to remember as an occupation than as a surname.",
+              "So the failure is not moral. The architecture is simply working as designed, and names are the worst possible fit for it."
+            ]
+          },
+          {
+            "heading": "What actually helps",
+            "paragraphs": [
+              "The remedies follow from the diagnosis. Because the problem is encoding, anything that buys the name a second of undivided attention helps: using it immediately in your reply, pausing before you respond, or asking how it is spelled.",
+              "Because the problem is also connection, giving the name something to attach to helps further — a association with someone else you know by that name, a feature of the person, anything that turns an arbitrary sound into part of a network.",
+              "None of this is a trick for a better memory. It is a way of giving an ordinary memory the conditions it needs."
+            ]
+          },
+          {
+            "heading": "A note on what this does not mean",
+            "paragraphs": [
+              "Everyday forgetting of names is extremely common and, on its own, says very little about brain health. What tends to matter clinically is change over time and disruption to daily life — not the ordinary experience of losing a name at a party.",
+              "If you are worried about your memory, that is a conversation for a qualified professional, not a website."
+            ]
+          }
+        ]
+      },
+      "automatic-reading": {
+        "title": "Reading is automatic. That is exactly the problem.",
+        "excerpt": "A ninety-year-old experiment with coloured words shows something uncomfortable: a great deal of what your mind does is not up to you.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Here is a task that sounds trivial. You are shown words printed in colour, and asked to name the colour of the ink while ignoring the word itself. When the word BLUE is printed in blue ink, this is effortless. When the word BLUE is printed in red ink, something strange happens: you slow down, and you make mistakes.",
+              "This is the Stroop effect, first described by John Ridley Stroop in 1935. It is one of the most reliably reproduced findings in psychology, and it is still used in research and clinical assessment today."
+            ]
+          },
+          {
+            "heading": "Why the delay happens",
+            "paragraphs": [
+              "For a fluent reader, reading is not a decision. Years of practice have made it automatic — presented with a word, you extract its meaning whether or not you intend to. Naming a colour, by contrast, is comparatively deliberate.",
+              "So the two processes arrive at different speeds and, when the word and the ink disagree, they deliver conflicting answers. The delay you feel is the cost of detecting that conflict and suppressing the response you did not want.",
+              "The important part is that you cannot simply choose not to read. Instructions do not disable it. The automatic process runs first, and control arrives afterwards to clean up."
+            ]
+          },
+          {
+            "heading": "What it says about attention",
+            "paragraphs": [
+              "It is tempting to imagine attention as a spotlight fully under your command. The Stroop task suggests something more modest: much of what reaches you is determined before you get a say, and voluntary control largely operates by overriding what is already underway.",
+              "This is not a flaw. Automaticity is what makes skill possible — a fluent reader, a practised driver, and an experienced surgeon all rely on processes that no longer require deliberation. The cost is that automatic processes are difficult to switch off when they become unhelpful."
+            ]
+          },
+          {
+            "heading": "Where this shows up off the page",
+            "paragraphs": [
+              "The same structure appears whenever a well-learned response conflicts with an intention: reaching for a phone that did not buzz, driving toward your workplace on a day off, or continuing a habit you have decided to change.",
+              "In each case the difficulty is not knowing what you want to do. It is that something faster than deliberation got there first."
+            ]
+          }
+        ]
+      },
+      "sleep-and-memory": {
+        "title": "The night shift: what sleep does with your day",
+        "excerpt": "Sleep is not the absence of activity. Some of the work that decides what you will remember happens only after you stop paying attention.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "It is easy to treat sleep as downtime — the hours subtracted from a day rather than part of it. The research points the other way. During sleep the brain is highly active, and some of that activity is directly concerned with the day that preceded it.",
+              "The night after learning something is part of learning it."
+            ]
+          },
+          {
+            "heading": "Consolidation",
+            "paragraphs": [
+              "New memories do not arrive permanent. They begin in a fragile state and are stabilised over time, a process called consolidation. Sleep plays a substantial role in it.",
+              "During deep, slow-wave sleep, patterns of activity recorded during waking are replayed — a finding established in animal studies and supported by human work. This replay is associated with memories becoming more durable and less dependent on the hippocampus, gradually integrating with existing knowledge in the cortex.",
+              "Put simply: the day is reviewed, sorted, and filed. Much of what you will still know next month is decided in the hours after you stop trying to learn it."
+            ]
+          },
+          {
+            "heading": "Attention is the first thing to go",
+            "paragraphs": [
+              "The most immediate cost of short sleep is not dramatic memory loss. It is attention.",
+              "Sleep-deprived people show lapses — brief failures to respond to something they would normally catch. Sustained attention becomes unstable, and performance grows more variable rather than uniformly slower. This is why reaction-time tasks are so sensitive to sleep loss, and why the effect is dangerous in driving.",
+              "There is a second problem: people are not reliable judges of their own impairment when sleep-deprived. Feeling adequate is not evidence of being adequate."
+            ]
+          },
+          {
+            "heading": "What this does and does not license",
+            "paragraphs": [
+              "Adult sleep need is usually described as roughly seven to nine hours, but individuals genuinely vary, and a single number is a poor guide to any particular person.",
+              "The practical claim here is narrower and better supported: if you are learning something and choosing between another hour of study and an hour of sleep, the sleep is not the indulgent option. It is part of the work.",
+              "Persistent sleep problems are worth raising with a doctor rather than managing alone."
+            ]
+          }
+        ]
+      },
+      "rereading-illusion": {
+        "title": "Why re-reading feels like learning",
+        "excerpt": "The study method that feels most productive is one of the least effective. The feeling is the problem.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Ask most people how they revise and they will describe reading the material again, perhaps with highlighting. It is the intuitive approach, and it feels like it is working. The second pass is smoother than the first, the material seems familiar, and that familiarity registers as understanding.",
+              "That feeling is the trap."
+            ]
+          },
+          {
+            "heading": "Fluency is not knowledge",
+            "paragraphs": [
+              "Re-reading reliably produces fluency — text you have just read is easy to process. Your mind interprets that ease as a sign that the material is known. But ease of recognition and ability to produce something from memory are different capacities, and an exam, a conversation, or a clinical decision almost always asks for the second.",
+              "Recognising a page is easy. Reconstructing it without the page is the thing that was never practised."
+            ]
+          },
+          {
+            "heading": "Retrieval as the actual mechanism",
+            "paragraphs": [
+              "A large body of work on what is called the testing effect shows that retrieving information from memory improves later retention more than restudying the same material for the same amount of time. Roediger and Karpicke's experiments are among the most cited demonstrations.",
+              "The counterintuitive part is that retrieval practice often feels worse while you are doing it. It is effortful, and it exposes what you do not know. Learners frequently rate it as less effective than re-reading even when their own later performance shows the opposite.",
+              "Spacing shows a similar pattern: distributing study across days outperforms massing it into one session, though the massed session usually feels more accomplished."
+            ]
+          },
+          {
+            "heading": "Difficulty that helps",
+            "paragraphs": [
+              "Robert Bjork's term for this is desirable difficulties — conditions that slow learning down in the moment while improving durable retention. Retrieval and spacing are the clearest examples.",
+              "The practical translation is short: close the book and try to say what was in it. Then check. The discomfort of failing to recall is not a sign the method is not working; it is most of why it works."
+            ]
+          }
+        ]
+      },
+      "feeling-and-thinking": {
+        "title": "Feeling is part of thinking",
+        "excerpt": "Emotion is often treated as interference in otherwise rational thought. The evidence suggests it is closer to infrastructure.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "There is a long-standing picture in which reason and emotion are opponents: clear thinking is what remains once feeling is removed. It is a tidy story, and it does not survive contact with the clinical evidence."
+            ]
+          },
+          {
+            "heading": "What happens when feeling is removed",
+            "paragraphs": [
+              "The neurologist Antonio Damasio described patients with damage to the ventromedial prefrontal cortex whose intelligence, language and memory remained largely intact, but whose emotional responses were blunted.",
+              "On the classical view they should have become better decision-makers. They did not. They struggled badly with ordinary choices, deliberating endlessly over trivial options and making decisions that damaged their work and relationships.",
+              "Damasio's proposal, the somatic marker hypothesis, is that emotional signals mark options with value, narrowing an unmanageable field of possibilities to a few worth considering. Strip that out and you are left not with cold clarity but with paralysis."
+            ]
+          },
+          {
+            "heading": "Emotion shapes what you keep",
+            "paragraphs": [
+              "Emotion also influences memory. Emotionally arousing events are, in general, better remembered than neutral ones, an effect linked to the amygdala's influence on memory consolidation.",
+              "But better remembered is not the same as accurately remembered. Research on so-called flashbulb memories — vivid recollections of learning shocking news — has found that confidence in such memories stays high while their accuracy drifts. Neisser and Harsch's study following the Challenger disaster is the well-known example: accounts changed substantially over time, while certainty did not.",
+              "This is worth sitting with. Vividness feels like evidence of accuracy, and it is not."
+            ]
+          },
+          {
+            "heading": "Why it matters",
+            "paragraphs": [
+              "If emotion is infrastructure rather than interference, then the goal of clear thinking is not to eliminate feeling but to understand what it is doing — which options it is quietly promoting, and which it has removed from consideration before you noticed.",
+              "That is a harder discipline than simply trying to be rational, and a more honest one."
+            ]
+          }
+        ]
+      },
+      "cognition-uzbekistan": {
+        "title": "What we do not yet know about cognition in Uzbekistan",
+        "excerpt": "Most of what psychology claims about the human mind rests on a narrow slice of humanity. Uzbekistan has an unusual place in that story.",
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "Psychology has a sampling problem, and it is not a small one. In an influential 2010 paper, Joseph Henrich, Steven Heine and Ara Norenzayan pointed out that the great majority of published behavioural research drew on participants from Western, Educated, Industrialised, Rich and Democratic societies — abbreviated to WEIRD.",
+              "Their argument was not that such findings are worthless. It was that a discipline claiming to describe the human mind had been generalising from an unrepresentative sample, and that on several measures those populations are outliers rather than a neutral baseline."
+            ]
+          },
+          {
+            "heading": "An unexpected local history",
+            "paragraphs": [
+              "Uzbekistan occupies a notable position in the history of this question. In the early 1930s the Soviet psychologist Alexander Luria travelled to Uzbekistan and Kyrgyzstan to study whether large social changes — particularly the spread of literacy and formal schooling — altered how people reasoned.",
+              "He compared responses across groups with differing exposure to schooling on tasks involving categorisation, logical syllogisms and visual illusions, and reported systematic differences in how problems were approached: some participants reasoned from direct practical experience rather than from the abstract terms of the task as posed.",
+              "The work is not without criticism, and its interpretation has been debated since. It was also suppressed for political reasons and not published in full until decades later. But it established something important early: how people reason is shaped by the conditions they reason in.",
+              "That research happened here. Very little systematic cognitive data has been gathered here since."
+            ]
+          },
+          {
+            "heading": "What is actually missing",
+            "paragraphs": [
+              "Cognitive tasks are not culturally neutral instruments. Performance on tests of memory, attention and processing speed is influenced by schooling, literacy, language, familiarity with testing formats, and how much the task resembles anything a participant has done before.",
+              "Without local reference data, an individual result is difficult to interpret. Comparing someone in Tashkent against norms collected from undergraduates elsewhere may say more about the mismatch than about the person."
+            ]
+          },
+          {
+            "heading": "Where Synapse sits",
+            "paragraphs": [
+              "This is the gap Synapse is interested in, and it is worth being precise about our current position: we are at the beginning. We have not collected enough data to describe cognition in Uzbekistan, and we will not pretend otherwise.",
+              "What we can do is be careful from the start — anonymous by default, transparent about method, and explicit that the tests here are educational instruments rather than diagnostic ones. Any figures we publish will be reported with their limitations attached.",
+              "If that sounds like a modest claim, it is deliberately so. The alternative — publishing confident numbers from thin data — is how a genuine gap gets filled with noise."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

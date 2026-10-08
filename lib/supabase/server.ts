@@ -43,7 +43,7 @@ export async function createServerSupabaseClient() {
  * service_role key. This project uses publishable key + RLS only, so this
  * always throws. Call sites already catch and degrade to empty UI.
  */
-export function getServiceRoleClient(): never {
+export function getServiceRoleClient(): any {
   throw new Error(
     "Service-role client is disabled. Use createClient() / createServerSupabaseClient() with RLS."
   );

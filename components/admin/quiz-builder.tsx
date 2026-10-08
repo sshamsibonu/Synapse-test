@@ -20,8 +20,10 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 type Props = {
-  articleId: string;
-  articleTitle: string;
+  articleId?: string;
+  articleTitle?: string;
+  lessonId?: string;
+  lessonTitle?: string;
   initialQuiz: QuizDraft | null;
   attemptCount: number;
 };
@@ -38,9 +40,18 @@ function reindexQuestions(questions: QuizQuestionDraft[]): QuizQuestionDraft[] {
   }));
 }
 
-export function QuizBuilder({ articleId, articleTitle, initialQuiz, attemptCount }: Props) {
+export function QuizBuilder({
+  articleId,
+  articleTitle,
+  lessonId,
+  lessonTitle,
+  initialQuiz,
+  attemptCount,
+}: Props) {
+  const targetId = articleId ?? lessonId ?? "";
+  const targetTitle = articleTitle ?? lessonTitle ?? "";
   const [draft, setDraft] = React.useState<QuizDraft>(
-    () => initialQuiz ?? emptyQuizDraft(articleId, articleTitle)
+    () => initialQuiz ?? emptyQuizDraft(targetId, targetTitle)
   );
   const [deletedQuestionIds, setDeletedQuestionIds] = React.useState<string[]>([]);
   const [deletedOptionIds, setDeletedOptionIds] = React.useState<string[]>([]);

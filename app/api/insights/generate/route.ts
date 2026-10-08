@@ -93,8 +93,8 @@ export async function POST(request: NextRequest) {
   const tDomains = await getTranslations({ locale, namespace: "domains" });
   const tTests = await getTranslations({ locale, namespace: "tests.items" });
 
-  const resultsSummary = results
-    .map((r) => {
+  const resultsSummary = (results as any[])
+    .map((r: any) => {
       const name = (() => {
         try {
           return tTests(`${r.test_id}.name`);
@@ -148,7 +148,7 @@ export async function POST(request: NextRequest) {
     .from("ai_reports")
     .insert({
       participant_id: participant.id,
-      test_result_ids: results.map((r) => r.id),
+      test_result_ids: (results as any[]).map((r: any) => r.id),
       report_json: parsed.data,
     })
     .select("*")

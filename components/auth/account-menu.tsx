@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { LogIn, LogOut } from "lucide-react";
 
 import { createClient } from "@/lib/supabase/client";
-import { Link, useRouter } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 import { useAuthUser } from "@/components/auth/use-auth-user";
 import { AuthDialog } from "@/components/auth/auth-dialog";
 import { Button } from "@/components/ui/button";
@@ -30,17 +30,10 @@ export function AccountMenu({ className }: { className?: string }) {
 
   if (user) {
     return (
-      <div className="flex items-center gap-1">
-        <Link href="/results">
-          <Button variant="ghost" className={className}>
-            {t("myResults")}
-          </Button>
-        </Link>
-        <Button variant="ghost" className={className} onClick={handleSignOut}>
-          <LogOut />
-          {t("signOut")}
-        </Button>
-      </div>
+      <Button variant="ghost" className={className} onClick={handleSignOut}>
+        <LogOut />
+        {t("signOut")}
+      </Button>
     );
   }
 

@@ -14,8 +14,7 @@
     "startAssessment": "Testni boshlash",
     "openMenu": "Menyuni ochish",
     "signIn": "Kirish",
-    "signOut": "Chiqish",
-    "myResults": "Mening natijalarim"
+    "signOut": "Chiqish"
   },
   "footer": {
     "tagline": "Miyani birgalikda anglash.",
